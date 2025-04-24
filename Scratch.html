@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Dawson Rice Scratch</title>
+
+  <!-- Google Fonts -->
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Open+Sans:wght@300;400;600&display=swap" 
+    rel="stylesheet"
+  />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="scratch.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="Eventsong.html">Event Song</a></li>
+      <li><a href="scratch.html">Scratch Page</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- On-page anchor -->
+    <a id="top"></a>
+
+    <!-- DIV #1: Intro block -->
+    <div class="intro-block">
+      <h1>The Thrill of Rock Climbing</h1>
+      <p>Exploring the vertical world: techniques, gear, and stories from the cliff’s edge.</p>
+      <p><a href="#video-section">Jump to video ↓</a></p>
+    </div>
+
+    <!-- DIV #2: Nested list content block -->
+    <div class="content-block">
+      <ol>
+        <li>Climbing Essentials
+          <ul>
+            <li>Harness &amp; Helmet</li>
+            <li>Rope &amp; Carabiners</li>
+            <li>Climbing Shoes</li>
+          </ul>
+        </li>
+        <li>Training &amp; Technique</li>
+        <li>Nutrition &amp; Safety</li>
+      </ol>
+    </div>
+
+    <!-- SECTION: Non-Bootstrap image -->
+    <section class="image-block">
+      <img 
+        src="assets/rockclimbing.jpg" 
+        alt="Rock climber scaling a sheer cliff face" 
+      />
+    </section>
+
+    <!-- SECTION: YouTube video -->
+    <section 
+      id="video-section" 
+      class="video-block"
+    >
+      <iframe 
+        src="https://www.youtube.com/embed/FmRIr0Je1cQ" 
+        title="YouTube Short: Climbing Shot" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- DIV #3: Live Tableau visualization -->
+    <div class="tableau-block">
+      <div class='tableauPlaceholder' id='viz1745370612051' style='position: relative'>
+        <noscript>
+          <a href='#'>
+            <img alt='Health Tracker Metrics' 
+                 src='https://public.tableau.com/static/images/He/HealthTracker_17222296039800/HealthTrackerMetrics/1_rss.png' 
+                 style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='HealthTracker_17222296039800/HealthTrackerMetrics' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https://public.tableau.com/static/images/He/HealthTracker_17222296039800/HealthTrackerMetrics/1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1745370612051');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='1400px';
+        vizElement.style.height='827px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
+
+    <!-- SECTION: Back to Top -->
+    <section class="back-to-top">
+      <a href="#top">↑ Back to Top</a>
+    </section>
+
+    <!-- DIV #4: Sidebar / callout -->
+    <div class="sidebar-block">
+      <p>
+        📌 <strong>Did you know?</strong> Yosemite’s granite offers perfect 
+        friction for crack climbing—no chalk needed!
+      </p>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-block">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
